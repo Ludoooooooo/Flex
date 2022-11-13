@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: rgb(255, 0, 0); 
+    padding-top: 50px;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+
+.MainFooter{
+    background-color:lightgreen;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.TopBar{
+    border-bottom: solid 2px black;
+    text-align: center;
+    background-color: red;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    border-top: solid 2px black;
+}
+#container{
+    background-color: yellow;
+}
+
+#aside p{
+    float: right;
+    color: blue;
+    background-color: rgb(255, 0, 217);
+}
+#aside p2{
+    float:left;
+    color: red;
+    background-color:rgb(230, 251, 0);
+}
+
+#paragraphe{
+    background-color : lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    justify-content: space-between;
+    border: dotted 1px;
+    text-align : justify;
+    flex: 1 0 200px;
+    
+}
